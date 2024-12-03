@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tecsteps/osscdoc/blob/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -83,15 +83,14 @@ const config = {
           src: 'img/ossc.png',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tecsteps/ossc',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,13 +104,8 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/intro',
               },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
               {
                 label: 'Imprint',
                 to: '/imprint',
@@ -119,15 +113,32 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'OSSC',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Homepage',
+                href: 'https://www.ossc.tech',
               },
               {
+                label: 'Demo',
+                href: 'https://www.ossc.tech/#demo',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.ossc.tech',
+              },
+            ],
+          },
+          {
+            title: 'Connect',
+            items: [
+              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/tecsteps/ossc',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/fabian-wesner/',
               },
             ],
           },
