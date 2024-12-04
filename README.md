@@ -19,3 +19,7 @@ We recommend that you begin by typing:
   `npm start`
 
 Happy building awesome websites!
+
+
+git push -> GitHub Tecsteps
+git push deploy -> Vercel
